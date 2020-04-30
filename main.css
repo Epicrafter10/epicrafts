@@ -1,0 +1,47 @@
+::-moz-selection { 
+  background-color: #34495e; 
+  color: #ffffff;
+  }
+  
+::selection {
+  background-color: #34495e;
+  color: #ffffff;
+}
+
+#current {
+  color: #dff9fb;
+}
+
+#current:hover {
+  color: #fff;
+}
+
+.nav-item:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.about1 {
+  max-width: 50%;
+  max-height: 50%;
+  margin-left: 70%;
+}
+
+.contact-box1,
+.contact-box2,
+.contact-box3 {
+    background-color: #2c3039;
+    outline: none;
+    border: none;
+}
+
+.contact-box1, select, textarea{
+  color: #fff;
+}
+
+.contact-box2, select, textarea{
+  color: #fff;
+}
+
+.contact-box3, select, textarea{
+  color: #fff;
+}

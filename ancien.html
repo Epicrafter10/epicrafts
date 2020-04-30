@@ -1,0 +1,21 @@
+<div class="container">
+            <h1 class="login">S'INSCRIRE</h1>
+            <form class="login-form" action="register.php" method="POST">
+            <div class="user-input">
+            <input class="username" type="text" name="username" value="<?php echo $username; ?>" placeholder="Username...">
+            </div>
+            <div class="email-form">
+            <input class="email" type="text" name="email" value="<?php echo $email; ?>" placeholder="Email...">
+            </div>
+            <div class="password-form">
+            <input class="password" type="password" name="password" placeholder="Password...">
+            </div>
+            <div class="password-conf-form">
+            <input class="password-conf" type="password" name="password1" placeholder="Confirm Password...">
+            </div>
+            <div class="submit-btn">
+            <button class="button" name="button" type="submit">S'inscrire</button>
+            </div>
+        </form>
+        <a class="register" href="index.php">Log in</a>
+        </div>
